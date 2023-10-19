@@ -63,7 +63,7 @@ if permission_given:
     time.sleep(3)
 
     # This portion opens chrome as a guest with a specific website
-    pAuto.write('start chrome --guest https://drive.google.com/file/d/1rLZbV7TljoCdiJi14i-m29NW-17nYK9T/view?usp=share_link')
+    pAuto.write('start chrome --guest https://www.youtube.com/watch?v=8ybW48rKBME')
     pAuto.press("enter")
     time.sleep(4)
     pAuto.press('Space')
